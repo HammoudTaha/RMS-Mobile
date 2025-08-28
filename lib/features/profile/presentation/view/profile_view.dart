@@ -9,6 +9,7 @@ import '../../../../core/utils/custom_confirm_dialog.dart';
 import '../../../../core/utils/custom_snakbar.dart';
 import '../../../../core/widgets/custom_error_page.dart';
 import '../../../auth/presentation/bloc/auth/auth_bloc.dart';
+import '../../data/data_source/local/profile_local_data_source.dart';
 import '../bloc/profile/profile_bloc.dart';
 import '../widgets/custom_image_item_shimmer.dart';
 import '../widgets/custom_language_dialog.dart';
@@ -229,10 +230,7 @@ class ProfileView extends StatelessWidget {
                 } else if (state is FailedProfileState) {
                   return CustomErrorPage(
                     onRetry: () async {
-                      // print(
-                      //   await (await getIt<Future<ProfileLocalDataSource>>())
-                      //       .getRefreshToken(),
-                      // );
+                      print((await getIt<Future<ProfileLocalDataSource>>()));
                     },
                   );
                 } else {
