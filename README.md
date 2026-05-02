@@ -54,7 +54,9 @@ RMS Mobile helps restaurant teams manage operational tasks from taking orders to
 
 ## 🖼Some Screenshots
 
-| ![](assets/screens/Screenshot2.png) | ![](assets/screens/Screenshot2.png) |![](assets/screens/Screenshot38.png)|![](assets/screens/Screenshot18.png)|![](assets/screens/Screenshot17.png)|![](assets/screens/Screenshot16.png)
+| login                               | home                                | Bookings                            | Favorites                            |
+| ----------------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------------ |
+| ![](assets/screens/Screenshot2.png) | ![](assets/screens/Screenshot7.png) | ![](assets/screens/Screenshot8.png) | ![](assets/screens/Screenshot10.png) |
 
 ---
 
