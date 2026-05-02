@@ -172,7 +172,7 @@ Contributions are welcome:
 
 ## License
 
-Specify the license here (MIT / Apache-2.0 / GPL …), or state that it is currently **unlicensed**.
+This project is open-source and available under the MIT License.
 
 ---
 
